@@ -1,0 +1,26 @@
+NOTES: pywaves
+
+adding air-H20 interface ... gravity and pressure=p(h)
+need a cell class so can have attrs ... 
+and probably the bag-of-filled-cells, bag-of-atm-cells
+or maintain more grids with 1s 2s and 0s to signify if filled, interface or atm cell. 
+will need to get pressure given depth below interface 
+(question: as waves goes over point on bottom does pressure increase?)
+need to understand linsolve(p,div) ... 
+also want obj oriented, since python ...
+
+first pass at interface in get_from_ui ... adding f=const for j<N/2 and f+=f(h) deeper. 
+still computing equations for all cells, but this already creates a velocity interface/transition layer ... 
+exhibits reflection? ....
+
+	float Fg;
+	for(j=1;j<N+1;j++){
+		Fg=-0.001;
+		if(j>N/2)Fg += (-0.01*(j-N/2))/N;	
+		for(i=1;i<N+1;i++){
+			
+			v[IX(i,j)]=Fg;
+		}
+	}	
+
+implementing pressure map ...
