@@ -1,5 +1,4 @@
-## Author: Charles Cosse
-## pywaves is a Python implementation of:
+## PyWaves is a Python implementation of:
 
 ## Realtime Fluid Dynamics for Games
 ### by Jos Stam
