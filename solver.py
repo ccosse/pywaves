@@ -1,4 +1,19 @@
 #Dependencies: None
+"""
+/***************************************************************************
+	Author			:Charles B. Cossé
+
+	Website			:http://netdispenser.github.io
+
+	Email			:ccosse (at) gmail.com
+
+	Copyright		:(C) 2010-2017 Asymptopia Software.
+
+	License			:Apache 2.0
+
+ ***************************************************************************/
+"""
+
 import copy
 import random
 
