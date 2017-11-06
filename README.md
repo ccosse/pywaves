@@ -1,4 +1,4 @@
-## PyWaves is a Python implementation of:
+## PyWaves is a Python implementation by Charles Brissac of:
 
 ## Realtime Fluid Dynamics for Games
 ### by Jos Stam
