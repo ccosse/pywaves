@@ -1,16 +1,11 @@
 #Dependencies: None
 """
 /***************************************************************************
-	Author			:Charles B. Cossé
+	Author			:Charles Brissac
 
-	Website			:http://netdispenser.github.io
-
-	Email			:ccosse (at) gmail.com
-
-	Copyright		:(C) 2010-2017 Asymptopia Software.
+	Email			:cdbrissac (at) gmail.com
 
 	License			:Apache 2.0
-
  ***************************************************************************/
 """
 
